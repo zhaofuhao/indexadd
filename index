@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>个人简历</title>
+
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="base-div">
+				<span class="name">赵福浩</span>
+				<span class="direction">求职意向：asp.net开发工程师</span>
+			</div>
+
+			<div class="detailed-div">
+				<ul class="detailed-ul">
+					<li>年龄：20岁</li>
+					<li>籍贯：山东临沂</li>
+					<li>电话：15588157061</li>
+					<li>邮箱：zhaofuhao0409@163.com</li>
+				</ul>
+			</div>
+
+			<div>
+				<span class="text-resume-div">个人简历</span>
+			</div>
+		</header>
+		<div class="Separator-div"></div>
+		<main>
+			<div class="education-div">
+				<div class="img-education-div">
+					<span class="text-education-span">教育背景</span>
+				</div>
+				<span class="education-time-span">2018.09-2021.07</span>
+				<br />
+				<br />
+				<span class="education-school-span"> 临沂职业学院 专科 计算机应用技术专业</span>
+			</div>
+			<hr />
+			<div class="skll-div">
+				<div class="img_circle-skill-div">
+					<span class="text-education-span">自我评价</span>
+					<div class="img_line-skil-div"></div>
+				</div>
+				<div class="skill-list-div">
+
+					<p>1、本人性格热情开朗、待人友好、为人真诚谦虚、能吃苦耐劳、尽职尽责，有耐心、善于与人沟通。
+
+					</p>
+					<p>2、日常喜欢写博客、记录学习经历、学习刻苦认真。
+					</p>
+					<p>3、为人诚恳勤奋好学脚踏实地、有较强的团队精神、工作积极进取、态度认真、抗压能力和强烈的责任感。</p>
+				</div>
+			</div>
+			<hr />
+			<div class="skll-div">
+				<div class="img_circle-skill-div">
+					<span class="text-education-span">职业技能</span>
+					<div class="img_line-skil-div"></div>
+				</div>
+				<div class="skill-list-div">
+					        <h4>.Net技术<h4>
+					         
+					        <p>理解c#面向对象编程，有一定面向对象编程思想</p>
+					        <p>熟练使用 winform、asp.net mvc 平台开发</p>
+					        <p>熟练运用Visual Studio 2019开发工具 </p>
+							<h4>数据库 </h4>
+							<p>熟练掌握sqlserver数据库</p>
+							<p>熟练掌握DML操作、增删改查、基本查询、子查询、连接查询</p>
+							<p>熟悉T-Sql编程、熟悉创建存储过程、事务</p>
+							<p>数据库 </p>
+							<p>熟练掌握sqlserver数据库</p>
+							<p>熟练掌握DML操作、增删改查、基本查询、子查询、连接查询</p>
+							<p>熟悉T-Sql编程、熟悉创建存储过程、事务</p>
+							<h4>web</h4>
+							<p>熟悉html5、css、JavaScriptweb </p>
+							<p>熟悉jquery 、vue、bootstrop、Ant Design框架</p>
+                            
+
+				</div>
+			</div>
+
+			<hr>
+			<div class="experience-div">
+				<div class="img-experience-div">
+					<span class="text-experience-span">项目经验</span>
+				</div>
+				<div class="img_line-experience-div"></div>
+				<div class="experience1-div">
+					<b>项目一：影院售票系统</b>
+					<div class="div-p">
+						<p>开发环境: Visual Studio  SqlServer </p>
+						<p>开发人数：4人</p>
+						<p>项目描述:项目主要包括：管理员 : 电影信息的发布、修改、删除、购票信息查看</p>
+                        <p>用  户 : 电影信息查看、电影关键字搜素、最新电影显示、购票、选座</p>                        
+						
+						<p>责任描述：负责电影信息的录入，以及购票选座功能 运用技术该项目基于winform平台 c/s模式开发  
+            将用户输入的电影信息保存到数据库选座功能在数据库中
+添加一张座位表通过0与1表示是否选座 后端吧获取的座位信息保存到list集合中 通过遍历取值进行
+座位的绑定。
+</p>
+
+					</div>
+				</div>
+				<br />
+				<div class="experience2-div">
+					<b>项目二:精品文字分享网站</b>
+					<div class="div-p">
+
+						<p>开发环境：Visual Studio SqlServer</p>
+						<p>开发人数：4人</p>
+						<p>项目描述:精品文字分享网站用户可以浏览其他用户发表的短文，对自己喜欢的短文，可以进行点赞收藏等操作，也可以注册登录发表自己的短文</p>
+						<p>登录注册：用户登录 注册</p>
+
+
+						<p>我发布的：我发布的文字</p>
+
+						<p>文字广场：用户发布的所有文字</p>
+						<p>其他功能 ：评论、收藏、点赞</p>
+                        <p>责任描述：负责用户注册登录后台代码编写，以及项目整合。运用技术 该项目基于.netFramework平台 B/S模式开发，采用 ajax 技术，三层模式开发，降低了程序的耦合性，表现层使用 asp.net web窗体+jquery 实现页面特效，div+css使页面易于维护 ，利用ajax技术实现局部刷新点赞评论 收藏功能使获得更好的用户体验，业务逻辑层使用 类库进行对数据业务逻辑操作的中转访问数据访问层，数据访问层对数据库进行访问</p>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+
+</html>
